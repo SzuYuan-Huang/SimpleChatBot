@@ -9,11 +9,11 @@ namespace ChatBotResponse.Controllers
 {
     public class TestLUISController : isRock.LineBot.LineWebHookControllerBase
     {
-        const string channelAccessToken = "~~~請改成自己的ChannelAccessToken~~~";
-        const string AdminUserId = "~~~改成你的AdminUserId~~~";
-        const string LuisAppId = "~~~改成你的LuisAppId~~~";
-        const string LuisAppKey = "~~~改成你的LuisAppKey~~~";
-        const string Luisdomain = "~~~改成你的Luisdomain~~~"; //ex.westus
+        const string channelAccessToken = "lu3bjI19f3tWdY/9wFj9Nh7gyKp5ztm71ynDGffoD2ub1gkLdGR4eHvmdZaSn0F4ZwcB4TjEacY1Ebz5HBbSOCy7ytKn3VxUg/XIqvE0HFiA6rS3IAIQo7erIEzowK2hMHM47Zmny/bJZf+YtC/GawdB04t89/1O/w1cDnyilFU=";
+        const string AdminUserId = "U1283329d6502dd9bbd6d5845de3d996c";
+        const string LuisAppId = "1f3f47ec-c3a6-40d6-89e6-372afcf763fb";
+        const string LuisAppKey = "5916a9958c444be0a7f2c05718a9111e";
+        const string Luisdomain = "westus"; //ex.westus
 
         [Route("api/TestLUIS")]
         [HttpPost]
